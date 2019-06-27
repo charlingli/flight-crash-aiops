@@ -1,5 +1,3 @@
-# flight-crash-aiops
-
 # Flight Crash Analysis and Prevention using AIOPs
 Simple stochastic aircraft metrics model with different failure vectors. How sick does that sound?
 
