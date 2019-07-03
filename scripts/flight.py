@@ -6,7 +6,7 @@ import time
 import scripts.utility as utility
 import scripts.calculations as calculations
 
-data = [{'Flight Data': {'Flight Number': 0, 'Flight Metrics': {'"Time" : 100,\n"Data" : {\n\t"Propulsion : Fuel" : [89.41096743],\n\t"Propulsion : Engine RPM" : [2141.06811649]\n}\n'}}}]
+data = [{'Flight Data': {'Flight Number': 0, 'Flight Metrics': {'"Time" : 100, "Data" : {"Propulsion : Fuel" : [89.41096743],"Propulsion : Engine RPM" : [2141.06811649]}'}}}]
 
 def getData():
     startTime = time.time()

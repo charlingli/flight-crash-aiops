@@ -89,13 +89,13 @@ def generateLiveData(flightTime):
     radiodelayData = generateRadioDelayData(flightTime, data_noise)
     satelliteonlineData = generateSatelliteOnlineData(flightTime, data_noise)
     radarproximityData = generateRadarProximityData(flightTime, data_noise)
-    return '"Time" : ' + str(flightTime) + ',\n"Data" : {\n\t"Propulsion : Fuel" : ' + str(fuelData) + ',\n\t"Propulsion : Engine RPM" : ' + str(enginerpmData) + '\n}\n'
+    return '"Time" : ' + str(flightTime) + ',"Data" : {"Propulsion : Fuel" : ' + str(fuelData) + ',"Propulsion : Engine RPM" : ' + str(enginerpmData) + '}'
 
 def generateStaticData(nSamples):
     dataTime = list(range(simulationLength))
 
     with open('staticData.txt', 'w+') as f:
-        f.write('{\n\t"Flight Data" : {\n')
+        f.write('{"Flight Data" : {')
         for i in range(0, nSamples):
             fuelData = []
             enginerpmData = []
@@ -107,7 +107,7 @@ def generateStaticData(nSamples):
             radiodelayData = []
             satelliteonlineData = []
             radarproximityData = []
-            f.write('\t\t"Flight Number" : ' + str(i) + ',\n')
+            f.write('"Flight Number" : ' + str(i) + ',')
             
             for j in dataTime:
                 data_noise = np.random.normal(1, 0.005, 1)
@@ -121,7 +121,7 @@ def generateStaticData(nSamples):
                 radiodelayData.append(generateRadioDelayData(j, data_noise))
                 satelliteonlineData.append(generateSatelliteOnlineData(j, data_noise))
                 radarproximityData.append(generateRadarProximityData(j, data_noise))
-                f.write('\t\t\t"Time" : ' + str(j) + ',\n\t\t\t"Data" : {\n\t\t\t\t"Propulsion : Fuel" : ' + str(int(fuelData[j])) + ',\n\t\t\t\t"Propulsion : Engine RPM" : ' + str(int(enginerpmData[j])) + '\n\t\t\t}\n')
+                f.write('"Time" : ' + str(j) + ',"Data" : {"Propulsion : Fuel" : ' + str(int(fuelData[j])) + ',"Propulsion : Engine RPM" : ' + str(int(enginerpmData[j])) + '}')
     f.close()
                 
                 
