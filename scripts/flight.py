@@ -25,9 +25,7 @@ def generateLiveData():
 class Flight(Resource):
   def get(self, id):
     print(data)
-    for metric in data:
-      print(metric)
-      return metric, 200
+    return data, 200
 
 t = threading.Thread(target=generateLiveData)
 t.start()
