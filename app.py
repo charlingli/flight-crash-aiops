@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_restful import Api
 
-from resources import flight
+from scripts.flight import Flight
 
 app = Flask(__name__)
 api = Api(app)
