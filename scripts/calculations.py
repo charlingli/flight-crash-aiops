@@ -89,8 +89,15 @@ def generateLiveData(flightTime):
     radiodelayData = generateRadioDelayData(flightTime, data_noise)
     satelliteonlineData = generateSatelliteOnlineData(flightTime, data_noise)
     radarproximityData = generateRadarProximityData(flightTime, data_noise)
-    return '"Time" : ' + str(flightTime) + ',"Data" : {"Propulsion : Fuel" : ' + str(fuelData) + ',"Propulsion : Engine RPM" : ' + str(enginerpmData) + '}'
-
+    data_payload = {
+        'Time' : str(flightTime), 
+        'Data' : 
+        {
+          'Propulsion : Fuel' : str(fuelData),
+          'Propulsion : Engine RPM' : str(enginerpmData)
+        }
+      }
+    return data_payload
 def generateStaticData(nSamples):
     dataTime = list(range(simulationLength))
 
