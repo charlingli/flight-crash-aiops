@@ -22,13 +22,12 @@ def generateLiveData():
         print(data)
         time.sleep(5.0 - ((time.time() - startTime) % 5.0))
 
-if __name__ == "__main__":
-    t = threading.Thread(target=generateLiveData)
-    t.start()
-
 class Flight(Resource):
   def get(self, id):
     print(data)
     for metric in data:
       print(metric)
       return metric, 200
+
+t = threading.Thread(target=generateLiveData)
+t.start()
