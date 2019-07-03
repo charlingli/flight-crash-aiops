@@ -1,0 +1,6004 @@
+{
+	"Flight Data" : {
+		"Flight Number" : 0,
+			"Time" : 0,
+			"Data" : {
+				"Propulsion : Fuel" : 100,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 1,
+			"Data" : {
+				"Propulsion : Fuel" : 100,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 2,
+			"Data" : {
+				"Propulsion : Fuel" : 100,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 3,
+			"Data" : {
+				"Propulsion : Fuel" : 100,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 4,
+			"Data" : {
+				"Propulsion : Fuel" : 100,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 5,
+			"Data" : {
+				"Propulsion : Fuel" : 100,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 6,
+			"Data" : {
+				"Propulsion : Fuel" : 100,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 7,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 8,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 9,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 10,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 11,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 12,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 13,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 14,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 15,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 16,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 17,
+			"Data" : {
+				"Propulsion : Fuel" : 98,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 18,
+			"Data" : {
+				"Propulsion : Fuel" : 98,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 19,
+			"Data" : {
+				"Propulsion : Fuel" : 98,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 20,
+			"Data" : {
+				"Propulsion : Fuel" : 98,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 21,
+			"Data" : {
+				"Propulsion : Fuel" : 98,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 22,
+			"Data" : {
+				"Propulsion : Fuel" : 98,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 23,
+			"Data" : {
+				"Propulsion : Fuel" : 98,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 24,
+			"Data" : {
+				"Propulsion : Fuel" : 98,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 25,
+			"Data" : {
+				"Propulsion : Fuel" : 98,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 26,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 27,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 28,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 29,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 30,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 31,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 32,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 33,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 34,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 35,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 36,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 37,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 38,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 39,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 40,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 41,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 42,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 43,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 44,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 45,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 46,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 47,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 48,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 49,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 50,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 51,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 52,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 53,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 54,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 55,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 56,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 57,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 58,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 59,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 60,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 61,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 62,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 63,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 64,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 65,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2211
+			}
+			"Time" : 66,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2211
+			}
+			"Time" : 67,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2211
+			}
+			"Time" : 68,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2211
+			}
+			"Time" : 69,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2211
+			}
+			"Time" : 70,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2210
+			}
+			"Time" : 71,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2210
+			}
+			"Time" : 72,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2210
+			}
+			"Time" : 73,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2209
+			}
+			"Time" : 74,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2209
+			}
+			"Time" : 75,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2209
+			}
+			"Time" : 76,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2208
+			}
+			"Time" : 77,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2208
+			}
+			"Time" : 78,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2207
+			}
+			"Time" : 79,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2206
+			}
+			"Time" : 80,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2206
+			}
+			"Time" : 81,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2205
+			}
+			"Time" : 82,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2204
+			}
+			"Time" : 83,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2203
+			}
+			"Time" : 84,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2202
+			}
+			"Time" : 85,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2201
+			}
+			"Time" : 86,
+			"Data" : {
+				"Propulsion : Fuel" : 91,
+				"Propulsion : Engine RPM" : 2200
+			}
+			"Time" : 87,
+			"Data" : {
+				"Propulsion : Fuel" : 91,
+				"Propulsion : Engine RPM" : 2199
+			}
+			"Time" : 88,
+			"Data" : {
+				"Propulsion : Fuel" : 91,
+				"Propulsion : Engine RPM" : 2197
+			}
+			"Time" : 89,
+			"Data" : {
+				"Propulsion : Fuel" : 91,
+				"Propulsion : Engine RPM" : 2196
+			}
+			"Time" : 90,
+			"Data" : {
+				"Propulsion : Fuel" : 91,
+				"Propulsion : Engine RPM" : 2194
+			}
+			"Time" : 91,
+			"Data" : {
+				"Propulsion : Fuel" : 91,
+				"Propulsion : Engine RPM" : 2192
+			}
+			"Time" : 92,
+			"Data" : {
+				"Propulsion : Fuel" : 91,
+				"Propulsion : Engine RPM" : 2190
+			}
+			"Time" : 93,
+			"Data" : {
+				"Propulsion : Fuel" : 91,
+				"Propulsion : Engine RPM" : 2188
+			}
+			"Time" : 94,
+			"Data" : {
+				"Propulsion : Fuel" : 91,
+				"Propulsion : Engine RPM" : 2185
+			}
+			"Time" : 95,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2182
+			}
+			"Time" : 96,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2180
+			}
+			"Time" : 97,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2176
+			}
+			"Time" : 98,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2173
+			}
+			"Time" : 99,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2169
+			}
+			"Time" : 100,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2165
+			}
+			"Time" : 101,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2161
+			}
+			"Time" : 102,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2156
+			}
+			"Time" : 103,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2151
+			}
+			"Time" : 104,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2145
+			}
+			"Time" : 105,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2140
+			}
+			"Time" : 106,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2133
+			}
+			"Time" : 107,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2127
+			}
+			"Time" : 108,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2120
+			}
+			"Time" : 109,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2113
+			}
+			"Time" : 110,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2105
+			}
+			"Time" : 111,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2097
+			}
+			"Time" : 112,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2088
+			}
+			"Time" : 113,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2079
+			}
+			"Time" : 114,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2070
+			}
+			"Time" : 115,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 2061
+			}
+			"Time" : 116,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 2052
+			}
+			"Time" : 117,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 2042
+			}
+			"Time" : 118,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 2032
+			}
+			"Time" : 119,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 2022
+			}
+			"Time" : 120,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 2012
+			}
+			"Time" : 121,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 2002
+			}
+			"Time" : 122,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 1992
+			}
+			"Time" : 123,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 1982
+			}
+			"Time" : 124,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 1972
+			}
+			"Time" : 125,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 1963
+			}
+			"Time" : 126,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 1953
+			}
+			"Time" : 127,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 1944
+			}
+			"Time" : 128,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 1935
+			}
+			"Time" : 129,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1927
+			}
+			"Time" : 130,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1919
+			}
+			"Time" : 131,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1911
+			}
+			"Time" : 132,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1904
+			}
+			"Time" : 133,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1897
+			}
+			"Time" : 134,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1890
+			}
+			"Time" : 135,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1884
+			}
+			"Time" : 136,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1878
+			}
+			"Time" : 137,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1873
+			}
+			"Time" : 138,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1868
+			}
+			"Time" : 139,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1863
+			}
+			"Time" : 140,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1859
+			}
+			"Time" : 141,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1854
+			}
+			"Time" : 142,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1851
+			}
+			"Time" : 143,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1847
+			}
+			"Time" : 144,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1844
+			}
+			"Time" : 145,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1841
+			}
+			"Time" : 146,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1838
+			}
+			"Time" : 147,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1836
+			}
+			"Time" : 148,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1834
+			}
+			"Time" : 149,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1832
+			}
+			"Time" : 150,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1830
+			}
+			"Time" : 151,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1828
+			}
+			"Time" : 152,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1826
+			}
+			"Time" : 153,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1825
+			}
+			"Time" : 154,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1824
+			}
+			"Time" : 155,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1822
+			}
+			"Time" : 156,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1821
+			}
+			"Time" : 157,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1820
+			}
+			"Time" : 158,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1819
+			}
+			"Time" : 159,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1819
+			}
+			"Time" : 160,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1818
+			}
+			"Time" : 161,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1817
+			}
+			"Time" : 162,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1817
+			}
+			"Time" : 163,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1816
+			}
+			"Time" : 164,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1815
+			}
+			"Time" : 165,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1815
+			}
+			"Time" : 166,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1815
+			}
+			"Time" : 167,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1814
+			}
+			"Time" : 168,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1814
+			}
+			"Time" : 169,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1814
+			}
+			"Time" : 170,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1813
+			}
+			"Time" : 171,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1813
+			}
+			"Time" : 172,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1813
+			}
+			"Time" : 173,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1813
+			}
+			"Time" : 174,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1812
+			}
+			"Time" : 175,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1812
+			}
+			"Time" : 176,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1812
+			}
+			"Time" : 177,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1812
+			}
+			"Time" : 178,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1812
+			}
+			"Time" : 179,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1812
+			}
+			"Time" : 180,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1812
+			}
+			"Time" : 181,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 182,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 183,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 184,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 185,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 186,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 187,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 188,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 189,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 190,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 191,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 192,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 193,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 194,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 195,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 196,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 197,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 198,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 199,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 200,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 201,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 202,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 203,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 204,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 205,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 206,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 207,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 208,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 209,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 210,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 211,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 212,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 213,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 214,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 215,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 216,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 217,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 218,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 219,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 220,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 221,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 222,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 223,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 224,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 225,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 226,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 227,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 228,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 229,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 230,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 231,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 232,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 233,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 234,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 235,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 236,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 237,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 238,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 239,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 240,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 241,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 242,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 243,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 244,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 245,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 246,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 247,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 248,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 249,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 250,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 251,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 252,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 253,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 254,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 255,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 256,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 257,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 258,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 259,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 260,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 261,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 262,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 263,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 264,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 265,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 266,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 267,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 268,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 269,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 270,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 271,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 272,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 273,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 274,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 275,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 276,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 277,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 278,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 279,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 280,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 281,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 282,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 283,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 284,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 285,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 286,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 287,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 288,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 289,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 290,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 291,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 292,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 293,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 294,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 295,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 296,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 297,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 298,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 299,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 300,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 301,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 302,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 303,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 304,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 305,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 306,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 307,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 308,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 309,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 310,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 311,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 312,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 313,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 314,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 315,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 316,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 317,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 318,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 319,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 320,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 321,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 322,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 323,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 324,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 325,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 326,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 327,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 328,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 329,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 330,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 331,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 332,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 333,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 334,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 335,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 336,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 337,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 338,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 339,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 340,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 341,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 342,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 343,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 344,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 345,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 346,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 347,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 348,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 349,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 350,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 351,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 352,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 353,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 354,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 355,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 356,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 357,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 358,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 359,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 360,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 361,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 362,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 363,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 364,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 365,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 366,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 367,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 368,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 369,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 370,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 371,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 372,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 373,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 374,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 375,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 376,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 377,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 378,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 379,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 380,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 381,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 382,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 383,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 384,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 385,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 386,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 387,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 388,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 389,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 390,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 391,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 392,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 393,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 394,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 395,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 396,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 397,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 398,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 399,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 400,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 401,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 402,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 403,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 404,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 405,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 406,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 407,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 408,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 409,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 410,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 411,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 412,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 413,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 414,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 415,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 416,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 417,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1809
+			}
+			"Time" : 418,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1809
+			}
+			"Time" : 419,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1809
+			}
+			"Time" : 420,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1809
+			}
+			"Time" : 421,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1809
+			}
+			"Time" : 422,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1809
+			}
+			"Time" : 423,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1809
+			}
+			"Time" : 424,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1808
+			}
+			"Time" : 425,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1808
+			}
+			"Time" : 426,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1808
+			}
+			"Time" : 427,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1808
+			}
+			"Time" : 428,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1807
+			}
+			"Time" : 429,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1807
+			}
+			"Time" : 430,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1807
+			}
+			"Time" : 431,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1806
+			}
+			"Time" : 432,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1806
+			}
+			"Time" : 433,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1805
+			}
+			"Time" : 434,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1805
+			}
+			"Time" : 435,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1804
+			}
+			"Time" : 436,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1803
+			}
+			"Time" : 437,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1802
+			}
+			"Time" : 438,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1802
+			}
+			"Time" : 439,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1801
+			}
+			"Time" : 440,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1800
+			}
+			"Time" : 441,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1799
+			}
+			"Time" : 442,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1797
+			}
+			"Time" : 443,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1796
+			}
+			"Time" : 444,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1795
+			}
+			"Time" : 445,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1793
+			}
+			"Time" : 446,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1791
+			}
+			"Time" : 447,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1789
+			}
+			"Time" : 448,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1787
+			}
+			"Time" : 449,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1785
+			}
+			"Time" : 450,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1782
+			}
+			"Time" : 451,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1779
+			}
+			"Time" : 452,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1776
+			}
+			"Time" : 453,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1773
+			}
+			"Time" : 454,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1769
+			}
+			"Time" : 455,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1765
+			}
+			"Time" : 456,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1760
+			}
+			"Time" : 457,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1756
+			}
+			"Time" : 458,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1750
+			}
+			"Time" : 459,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1745
+			}
+			"Time" : 460,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1739
+			}
+			"Time" : 461,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1732
+			}
+			"Time" : 462,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1725
+			}
+			"Time" : 463,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1717
+			}
+			"Time" : 464,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1709
+			}
+			"Time" : 465,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1700
+			}
+			"Time" : 466,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1691
+			}
+			"Time" : 467,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1681
+			}
+			"Time" : 468,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1671
+			}
+			"Time" : 469,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1660
+			}
+			"Time" : 470,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1648
+			}
+			"Time" : 471,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1636
+			}
+			"Time" : 472,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1623
+			}
+			"Time" : 473,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1610
+			}
+			"Time" : 474,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1597
+			}
+			"Time" : 475,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1583
+			}
+			"Time" : 476,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1568
+			}
+			"Time" : 477,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1554
+			}
+			"Time" : 478,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1539
+			}
+			"Time" : 479,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1524
+			}
+			"Time" : 480,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1509
+			}
+			"Time" : 481,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1494
+			}
+			"Time" : 482,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1479
+			}
+			"Time" : 483,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1464
+			}
+			"Time" : 484,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1449
+			}
+			"Time" : 485,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1435
+			}
+			"Time" : 486,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1421
+			}
+			"Time" : 487,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1407
+			}
+			"Time" : 488,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1394
+			}
+			"Time" : 489,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1381
+			}
+			"Time" : 490,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1369
+			}
+			"Time" : 491,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1358
+			}
+			"Time" : 492,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1347
+			}
+			"Time" : 493,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1336
+			}
+			"Time" : 494,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1326
+			}
+			"Time" : 495,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1317
+			}
+			"Time" : 496,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1308
+			}
+			"Time" : 497,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1300
+			}
+			"Time" : 498,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1293
+			}
+			"Time" : 499,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1285
+			}
+			"Time" : 500,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1279
+			}
+			"Time" : 501,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1273
+			}
+			"Time" : 502,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1267
+			}
+			"Time" : 503,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1262
+			}
+			"Time" : 504,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1257
+			}
+			"Time" : 505,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1253
+			}
+			"Time" : 506,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1249
+			}
+			"Time" : 507,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1245
+			}
+			"Time" : 508,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1241
+			}
+			"Time" : 509,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1238
+			}
+			"Time" : 510,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1236
+			}
+			"Time" : 511,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1233
+			}
+			"Time" : 512,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1231
+			}
+			"Time" : 513,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1228
+			}
+			"Time" : 514,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1226
+			}
+			"Time" : 515,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1225
+			}
+			"Time" : 516,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1223
+			}
+			"Time" : 517,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1221
+			}
+			"Time" : 518,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1220
+			}
+			"Time" : 519,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1219
+			}
+			"Time" : 520,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1218
+			}
+			"Time" : 521,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1217
+			}
+			"Time" : 522,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1216
+			}
+			"Time" : 523,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1215
+			}
+			"Time" : 524,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1214
+			}
+			"Time" : 525,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1214
+			}
+			"Time" : 526,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1213
+			}
+			"Time" : 527,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1212
+			}
+			"Time" : 528,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1212
+			}
+			"Time" : 529,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1211
+			}
+			"Time" : 530,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1211
+			}
+			"Time" : 531,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1211
+			}
+			"Time" : 532,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1210
+			}
+			"Time" : 533,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1210
+			}
+			"Time" : 534,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1210
+			}
+			"Time" : 535,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1209
+			}
+			"Time" : 536,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1209
+			}
+			"Time" : 537,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1209
+			}
+			"Time" : 538,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1209
+			}
+			"Time" : 539,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1209
+			}
+			"Time" : 540,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1208
+			}
+			"Time" : 541,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1208
+			}
+			"Time" : 542,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1208
+			}
+			"Time" : 543,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1208
+			}
+			"Time" : 544,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1208
+			}
+			"Time" : 545,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1208
+			}
+			"Time" : 546,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1208
+			}
+			"Time" : 547,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1208
+			}
+			"Time" : 548,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1208
+			}
+			"Time" : 549,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 550,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 551,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 552,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 553,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 554,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 555,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 556,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 557,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 558,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 559,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 560,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 561,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 562,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 563,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 564,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 565,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 566,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 567,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 568,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 569,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 570,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 571,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 572,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 573,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 574,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 575,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 576,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 577,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 578,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 579,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 580,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 581,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 582,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 583,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 584,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 585,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 586,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 587,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 588,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 589,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 590,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 591,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 592,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 593,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 594,
+			"Data" : {
+				"Propulsion : Fuel" : 68,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 595,
+			"Data" : {
+				"Propulsion : Fuel" : 68,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 596,
+			"Data" : {
+				"Propulsion : Fuel" : 68,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 597,
+			"Data" : {
+				"Propulsion : Fuel" : 68,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 598,
+			"Data" : {
+				"Propulsion : Fuel" : 68,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 599,
+			"Data" : {
+				"Propulsion : Fuel" : 68,
+				"Propulsion : Engine RPM" : 1207
+			}
+		"Flight Number" : 1,
+			"Time" : 0,
+			"Data" : {
+				"Propulsion : Fuel" : 100,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 1,
+			"Data" : {
+				"Propulsion : Fuel" : 100,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 2,
+			"Data" : {
+				"Propulsion : Fuel" : 100,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 3,
+			"Data" : {
+				"Propulsion : Fuel" : 100,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 4,
+			"Data" : {
+				"Propulsion : Fuel" : 100,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 5,
+			"Data" : {
+				"Propulsion : Fuel" : 100,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 6,
+			"Data" : {
+				"Propulsion : Fuel" : 100,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 7,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 8,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 9,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 10,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 11,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 12,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 13,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 14,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 15,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 16,
+			"Data" : {
+				"Propulsion : Fuel" : 99,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 17,
+			"Data" : {
+				"Propulsion : Fuel" : 98,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 18,
+			"Data" : {
+				"Propulsion : Fuel" : 98,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 19,
+			"Data" : {
+				"Propulsion : Fuel" : 98,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 20,
+			"Data" : {
+				"Propulsion : Fuel" : 98,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 21,
+			"Data" : {
+				"Propulsion : Fuel" : 98,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 22,
+			"Data" : {
+				"Propulsion : Fuel" : 98,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 23,
+			"Data" : {
+				"Propulsion : Fuel" : 98,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 24,
+			"Data" : {
+				"Propulsion : Fuel" : 98,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 25,
+			"Data" : {
+				"Propulsion : Fuel" : 98,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 26,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 27,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 28,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 29,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 30,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 31,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 32,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 33,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 34,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 35,
+			"Data" : {
+				"Propulsion : Fuel" : 97,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 36,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 37,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 38,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 39,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 40,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 41,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 42,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 43,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 44,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 45,
+			"Data" : {
+				"Propulsion : Fuel" : 96,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 46,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 47,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 48,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 49,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 50,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 51,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 52,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 53,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2213
+			}
+			"Time" : 54,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 55,
+			"Data" : {
+				"Propulsion : Fuel" : 95,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 56,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 57,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 58,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 59,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 60,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 61,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 62,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 63,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 64,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2212
+			}
+			"Time" : 65,
+			"Data" : {
+				"Propulsion : Fuel" : 94,
+				"Propulsion : Engine RPM" : 2211
+			}
+			"Time" : 66,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2211
+			}
+			"Time" : 67,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2211
+			}
+			"Time" : 68,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2211
+			}
+			"Time" : 69,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2211
+			}
+			"Time" : 70,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2210
+			}
+			"Time" : 71,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2210
+			}
+			"Time" : 72,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2210
+			}
+			"Time" : 73,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2209
+			}
+			"Time" : 74,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2209
+			}
+			"Time" : 75,
+			"Data" : {
+				"Propulsion : Fuel" : 93,
+				"Propulsion : Engine RPM" : 2209
+			}
+			"Time" : 76,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2208
+			}
+			"Time" : 77,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2208
+			}
+			"Time" : 78,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2207
+			}
+			"Time" : 79,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2206
+			}
+			"Time" : 80,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2206
+			}
+			"Time" : 81,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2205
+			}
+			"Time" : 82,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2204
+			}
+			"Time" : 83,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2203
+			}
+			"Time" : 84,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2202
+			}
+			"Time" : 85,
+			"Data" : {
+				"Propulsion : Fuel" : 92,
+				"Propulsion : Engine RPM" : 2201
+			}
+			"Time" : 86,
+			"Data" : {
+				"Propulsion : Fuel" : 91,
+				"Propulsion : Engine RPM" : 2200
+			}
+			"Time" : 87,
+			"Data" : {
+				"Propulsion : Fuel" : 91,
+				"Propulsion : Engine RPM" : 2199
+			}
+			"Time" : 88,
+			"Data" : {
+				"Propulsion : Fuel" : 91,
+				"Propulsion : Engine RPM" : 2197
+			}
+			"Time" : 89,
+			"Data" : {
+				"Propulsion : Fuel" : 91,
+				"Propulsion : Engine RPM" : 2196
+			}
+			"Time" : 90,
+			"Data" : {
+				"Propulsion : Fuel" : 91,
+				"Propulsion : Engine RPM" : 2194
+			}
+			"Time" : 91,
+			"Data" : {
+				"Propulsion : Fuel" : 91,
+				"Propulsion : Engine RPM" : 2192
+			}
+			"Time" : 92,
+			"Data" : {
+				"Propulsion : Fuel" : 91,
+				"Propulsion : Engine RPM" : 2190
+			}
+			"Time" : 93,
+			"Data" : {
+				"Propulsion : Fuel" : 91,
+				"Propulsion : Engine RPM" : 2188
+			}
+			"Time" : 94,
+			"Data" : {
+				"Propulsion : Fuel" : 91,
+				"Propulsion : Engine RPM" : 2185
+			}
+			"Time" : 95,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2182
+			}
+			"Time" : 96,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2180
+			}
+			"Time" : 97,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2176
+			}
+			"Time" : 98,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2173
+			}
+			"Time" : 99,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2169
+			}
+			"Time" : 100,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2165
+			}
+			"Time" : 101,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2161
+			}
+			"Time" : 102,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2156
+			}
+			"Time" : 103,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2151
+			}
+			"Time" : 104,
+			"Data" : {
+				"Propulsion : Fuel" : 90,
+				"Propulsion : Engine RPM" : 2145
+			}
+			"Time" : 105,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2140
+			}
+			"Time" : 106,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2133
+			}
+			"Time" : 107,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2127
+			}
+			"Time" : 108,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2120
+			}
+			"Time" : 109,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2113
+			}
+			"Time" : 110,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2105
+			}
+			"Time" : 111,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2097
+			}
+			"Time" : 112,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2088
+			}
+			"Time" : 113,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2079
+			}
+			"Time" : 114,
+			"Data" : {
+				"Propulsion : Fuel" : 89,
+				"Propulsion : Engine RPM" : 2070
+			}
+			"Time" : 115,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 2061
+			}
+			"Time" : 116,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 2052
+			}
+			"Time" : 117,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 2042
+			}
+			"Time" : 118,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 2032
+			}
+			"Time" : 119,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 2022
+			}
+			"Time" : 120,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 2012
+			}
+			"Time" : 121,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 2002
+			}
+			"Time" : 122,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 1992
+			}
+			"Time" : 123,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 1982
+			}
+			"Time" : 124,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 1972
+			}
+			"Time" : 125,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 1963
+			}
+			"Time" : 126,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 1953
+			}
+			"Time" : 127,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 1944
+			}
+			"Time" : 128,
+			"Data" : {
+				"Propulsion : Fuel" : 88,
+				"Propulsion : Engine RPM" : 1935
+			}
+			"Time" : 129,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1927
+			}
+			"Time" : 130,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1919
+			}
+			"Time" : 131,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1911
+			}
+			"Time" : 132,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1904
+			}
+			"Time" : 133,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1897
+			}
+			"Time" : 134,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1890
+			}
+			"Time" : 135,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1884
+			}
+			"Time" : 136,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1878
+			}
+			"Time" : 137,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1873
+			}
+			"Time" : 138,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1868
+			}
+			"Time" : 139,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1863
+			}
+			"Time" : 140,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1859
+			}
+			"Time" : 141,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1854
+			}
+			"Time" : 142,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1851
+			}
+			"Time" : 143,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1847
+			}
+			"Time" : 144,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1844
+			}
+			"Time" : 145,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1841
+			}
+			"Time" : 146,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1838
+			}
+			"Time" : 147,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1836
+			}
+			"Time" : 148,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1834
+			}
+			"Time" : 149,
+			"Data" : {
+				"Propulsion : Fuel" : 87,
+				"Propulsion : Engine RPM" : 1832
+			}
+			"Time" : 150,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1830
+			}
+			"Time" : 151,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1828
+			}
+			"Time" : 152,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1826
+			}
+			"Time" : 153,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1825
+			}
+			"Time" : 154,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1824
+			}
+			"Time" : 155,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1822
+			}
+			"Time" : 156,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1821
+			}
+			"Time" : 157,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1820
+			}
+			"Time" : 158,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1819
+			}
+			"Time" : 159,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1819
+			}
+			"Time" : 160,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1818
+			}
+			"Time" : 161,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1817
+			}
+			"Time" : 162,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1817
+			}
+			"Time" : 163,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1816
+			}
+			"Time" : 164,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1815
+			}
+			"Time" : 165,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1815
+			}
+			"Time" : 166,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1815
+			}
+			"Time" : 167,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1814
+			}
+			"Time" : 168,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1814
+			}
+			"Time" : 169,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1814
+			}
+			"Time" : 170,
+			"Data" : {
+				"Propulsion : Fuel" : 86,
+				"Propulsion : Engine RPM" : 1813
+			}
+			"Time" : 171,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1813
+			}
+			"Time" : 172,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1813
+			}
+			"Time" : 173,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1813
+			}
+			"Time" : 174,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1812
+			}
+			"Time" : 175,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1812
+			}
+			"Time" : 176,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1812
+			}
+			"Time" : 177,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1812
+			}
+			"Time" : 178,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1812
+			}
+			"Time" : 179,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1812
+			}
+			"Time" : 180,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1812
+			}
+			"Time" : 181,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 182,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 183,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 184,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 185,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 186,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 187,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 188,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 189,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 190,
+			"Data" : {
+				"Propulsion : Fuel" : 85,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 191,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 192,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 193,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 194,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 195,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 196,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 197,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 198,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 199,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 200,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 201,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 202,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 203,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 204,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 205,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 206,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 207,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 208,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 209,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 210,
+			"Data" : {
+				"Propulsion : Fuel" : 84,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 211,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 212,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 213,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 214,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 215,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 216,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 217,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 218,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 219,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 220,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 221,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 222,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 223,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 224,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 225,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 226,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 227,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 228,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 229,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 230,
+			"Data" : {
+				"Propulsion : Fuel" : 83,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 231,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 232,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 233,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 234,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 235,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 236,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 237,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 238,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 239,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 240,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 241,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 242,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 243,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 244,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 245,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 246,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 247,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 248,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 249,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 250,
+			"Data" : {
+				"Propulsion : Fuel" : 82,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 251,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 252,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 253,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 254,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 255,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 256,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 257,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 258,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 259,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 260,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 261,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 262,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 263,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 264,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 265,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 266,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 267,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 268,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 269,
+			"Data" : {
+				"Propulsion : Fuel" : 81,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 270,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 271,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 272,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 273,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 274,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 275,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 276,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 277,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 278,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 279,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 280,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 281,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 282,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 283,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 284,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 285,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 286,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 287,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 288,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 289,
+			"Data" : {
+				"Propulsion : Fuel" : 80,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 290,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 291,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 292,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 293,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 294,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 295,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 296,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 297,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 298,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 299,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 300,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 301,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 302,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 303,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 304,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 305,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 306,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 307,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 308,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 309,
+			"Data" : {
+				"Propulsion : Fuel" : 79,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 310,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 311,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 312,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 313,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 314,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 315,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 316,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 317,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 318,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 319,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 320,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 321,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 322,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 323,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 324,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 325,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 326,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 327,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 328,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 329,
+			"Data" : {
+				"Propulsion : Fuel" : 78,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 330,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 331,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 332,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 333,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 334,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 335,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 336,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 337,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 338,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 339,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 340,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 341,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 342,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 343,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 344,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 345,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 346,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 347,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 348,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 349,
+			"Data" : {
+				"Propulsion : Fuel" : 77,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 350,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 351,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 352,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 353,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 354,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 355,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 356,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 357,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 358,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 359,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 360,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 361,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 362,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 363,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 364,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 365,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 366,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 367,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 368,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 369,
+			"Data" : {
+				"Propulsion : Fuel" : 76,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 370,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 371,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 372,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 373,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 374,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 375,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 376,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 377,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 378,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 379,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 380,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 381,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 382,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 383,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 384,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 385,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 386,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 387,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 388,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 389,
+			"Data" : {
+				"Propulsion : Fuel" : 75,
+				"Propulsion : Engine RPM" : 1811
+			}
+			"Time" : 390,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 391,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 392,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 393,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 394,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 395,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 396,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 397,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 398,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 399,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 400,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 401,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 402,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 403,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 404,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 405,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 406,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 407,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 408,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 409,
+			"Data" : {
+				"Propulsion : Fuel" : 74,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 410,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 411,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 412,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 413,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 414,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 415,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 416,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1810
+			}
+			"Time" : 417,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1809
+			}
+			"Time" : 418,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1809
+			}
+			"Time" : 419,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1809
+			}
+			"Time" : 420,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1809
+			}
+			"Time" : 421,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1809
+			}
+			"Time" : 422,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1809
+			}
+			"Time" : 423,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1809
+			}
+			"Time" : 424,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1808
+			}
+			"Time" : 425,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1808
+			}
+			"Time" : 426,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1808
+			}
+			"Time" : 427,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1808
+			}
+			"Time" : 428,
+			"Data" : {
+				"Propulsion : Fuel" : 73,
+				"Propulsion : Engine RPM" : 1807
+			}
+			"Time" : 429,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1807
+			}
+			"Time" : 430,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1807
+			}
+			"Time" : 431,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1806
+			}
+			"Time" : 432,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1806
+			}
+			"Time" : 433,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1805
+			}
+			"Time" : 434,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1805
+			}
+			"Time" : 435,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1804
+			}
+			"Time" : 436,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1803
+			}
+			"Time" : 437,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1802
+			}
+			"Time" : 438,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1802
+			}
+			"Time" : 439,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1801
+			}
+			"Time" : 440,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1800
+			}
+			"Time" : 441,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1799
+			}
+			"Time" : 442,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1797
+			}
+			"Time" : 443,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1796
+			}
+			"Time" : 444,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1795
+			}
+			"Time" : 445,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1793
+			}
+			"Time" : 446,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1791
+			}
+			"Time" : 447,
+			"Data" : {
+				"Propulsion : Fuel" : 72,
+				"Propulsion : Engine RPM" : 1789
+			}
+			"Time" : 448,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1787
+			}
+			"Time" : 449,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1785
+			}
+			"Time" : 450,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1782
+			}
+			"Time" : 451,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1779
+			}
+			"Time" : 452,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1776
+			}
+			"Time" : 453,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1773
+			}
+			"Time" : 454,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1769
+			}
+			"Time" : 455,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1765
+			}
+			"Time" : 456,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1760
+			}
+			"Time" : 457,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1756
+			}
+			"Time" : 458,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1750
+			}
+			"Time" : 459,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1745
+			}
+			"Time" : 460,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1739
+			}
+			"Time" : 461,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1732
+			}
+			"Time" : 462,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1725
+			}
+			"Time" : 463,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1717
+			}
+			"Time" : 464,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1709
+			}
+			"Time" : 465,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1700
+			}
+			"Time" : 466,
+			"Data" : {
+				"Propulsion : Fuel" : 71,
+				"Propulsion : Engine RPM" : 1691
+			}
+			"Time" : 467,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1681
+			}
+			"Time" : 468,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1671
+			}
+			"Time" : 469,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1660
+			}
+			"Time" : 470,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1648
+			}
+			"Time" : 471,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1636
+			}
+			"Time" : 472,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1623
+			}
+			"Time" : 473,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1610
+			}
+			"Time" : 474,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1597
+			}
+			"Time" : 475,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1583
+			}
+			"Time" : 476,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1568
+			}
+			"Time" : 477,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1554
+			}
+			"Time" : 478,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1539
+			}
+			"Time" : 479,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1524
+			}
+			"Time" : 480,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1509
+			}
+			"Time" : 481,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1494
+			}
+			"Time" : 482,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1479
+			}
+			"Time" : 483,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1464
+			}
+			"Time" : 484,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1449
+			}
+			"Time" : 485,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1435
+			}
+			"Time" : 486,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1421
+			}
+			"Time" : 487,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1407
+			}
+			"Time" : 488,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1394
+			}
+			"Time" : 489,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1381
+			}
+			"Time" : 490,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1369
+			}
+			"Time" : 491,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1358
+			}
+			"Time" : 492,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1347
+			}
+			"Time" : 493,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1336
+			}
+			"Time" : 494,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1326
+			}
+			"Time" : 495,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1317
+			}
+			"Time" : 496,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1308
+			}
+			"Time" : 497,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1300
+			}
+			"Time" : 498,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1293
+			}
+			"Time" : 499,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1285
+			}
+			"Time" : 500,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1279
+			}
+			"Time" : 501,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1273
+			}
+			"Time" : 502,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1267
+			}
+			"Time" : 503,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1262
+			}
+			"Time" : 504,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1257
+			}
+			"Time" : 505,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1253
+			}
+			"Time" : 506,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1249
+			}
+			"Time" : 507,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1245
+			}
+			"Time" : 508,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1241
+			}
+			"Time" : 509,
+			"Data" : {
+				"Propulsion : Fuel" : 70,
+				"Propulsion : Engine RPM" : 1238
+			}
+			"Time" : 510,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1236
+			}
+			"Time" : 511,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1233
+			}
+			"Time" : 512,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1231
+			}
+			"Time" : 513,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1228
+			}
+			"Time" : 514,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1226
+			}
+			"Time" : 515,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1225
+			}
+			"Time" : 516,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1223
+			}
+			"Time" : 517,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1221
+			}
+			"Time" : 518,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1220
+			}
+			"Time" : 519,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1219
+			}
+			"Time" : 520,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1218
+			}
+			"Time" : 521,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1217
+			}
+			"Time" : 522,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1216
+			}
+			"Time" : 523,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1215
+			}
+			"Time" : 524,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1214
+			}
+			"Time" : 525,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1214
+			}
+			"Time" : 526,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1213
+			}
+			"Time" : 527,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1212
+			}
+			"Time" : 528,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1212
+			}
+			"Time" : 529,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1211
+			}
+			"Time" : 530,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1211
+			}
+			"Time" : 531,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1211
+			}
+			"Time" : 532,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1210
+			}
+			"Time" : 533,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1210
+			}
+			"Time" : 534,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1210
+			}
+			"Time" : 535,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1209
+			}
+			"Time" : 536,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1209
+			}
+			"Time" : 537,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1209
+			}
+			"Time" : 538,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1209
+			}
+			"Time" : 539,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1209
+			}
+			"Time" : 540,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1208
+			}
+			"Time" : 541,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1208
+			}
+			"Time" : 542,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1208
+			}
+			"Time" : 543,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1208
+			}
+			"Time" : 544,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1208
+			}
+			"Time" : 545,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1208
+			}
+			"Time" : 546,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1208
+			}
+			"Time" : 547,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1208
+			}
+			"Time" : 548,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1208
+			}
+			"Time" : 549,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 550,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 551,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 552,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 553,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 554,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 555,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 556,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 557,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 558,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 559,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 560,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 561,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 562,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 563,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 564,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 565,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 566,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 567,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 568,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 569,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 570,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 571,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 572,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 573,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 574,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 575,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 576,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 577,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 578,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 579,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 580,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 581,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 582,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 583,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 584,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 585,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 586,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 587,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 588,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 589,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 590,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 591,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 592,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 593,
+			"Data" : {
+				"Propulsion : Fuel" : 69,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 594,
+			"Data" : {
+				"Propulsion : Fuel" : 68,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 595,
+			"Data" : {
+				"Propulsion : Fuel" : 68,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 596,
+			"Data" : {
+				"Propulsion : Fuel" : 68,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 597,
+			"Data" : {
+				"Propulsion : Fuel" : 68,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 598,
+			"Data" : {
+				"Propulsion : Fuel" : 68,
+				"Propulsion : Engine RPM" : 1207
+			}
+			"Time" : 599,
+			"Data" : {
+				"Propulsion : Fuel" : 68,
+				"Propulsion : Engine RPM" : 1207
+			}
