@@ -28,5 +28,7 @@ if __name__ == "__main__":
 
 class Flight(Resource):
   def get(self, id):
+    print(data)
     for metric in data:
-        return metric, 200
+      print(metric)
+      return metric, 200
