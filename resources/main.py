@@ -3,8 +3,8 @@ import os
 import sys
 import threading
 import time
-import utility
-import calculations
+import resources.utility as utility
+import resources.calculations as calculations
 
 data = []
 
