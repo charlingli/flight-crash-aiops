@@ -1,0 +1,28 @@
+simulation:
+  restart: true # Restart after simulation ends?
+  length: 600   # Length in seconds of each simulation
+  multiplier: 1 # Time multiplier (# of metrics to calculate per second)
+
+model:
+  failure: None # Failure cause (None/intake/fuel... follow the topology)
+  type: simple  # Active components (topology below)
+  advanced:
+    intake: powerplant
+    fuel: powerplant
+    oil: powerplant
+    engine: powerplant
+    propeller: powerplant
+    battery: electrical
+    communications: avionics
+    satellite: avionics
+    radar: avionics
+    groundspeed: instrumentation
+    altitude: instrumentation
+    pitch: instrumentation
+  simple:
+    fuel: powerplant
+    engine: powerplant
+    propeller: powerplant
+    battery: electrical
+    groundspeed: instrumentation
+    altitude: instrumentation
