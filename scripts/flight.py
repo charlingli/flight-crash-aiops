@@ -6,9 +6,9 @@ import time
 import scripts.utility as utility
 import scripts.calculations as calculations
 
-data = []
+data = [{'Flight Data': {'Flight Number': 0, 'Flight Metrics': {'"Time" : 100,\n"Data" : {\n\t"Propulsion : Fuel" : [89.41096743],\n\t"Propulsion : Engine RPM" : [2141.06811649]\n}\n'}}}]
 
-def generateLiveData():
+def getData():
     startTime = time.time()
     while True:
         data = [ {
@@ -19,7 +19,7 @@ def generateLiveData():
               }
             }
         } ]
-        print(data)
+        print('Data generated')
         time.sleep(5.0 - ((time.time() - startTime) % 5.0))
 
 class Flight(Resource):
@@ -27,5 +27,5 @@ class Flight(Resource):
     print(data)
     return data, 200
 
-t = threading.Thread(target=generateLiveData)
+t = threading.Thread(target=getData)
 t.start()
