@@ -128,7 +128,8 @@ def generateStaticData(nSamples):
                 radiodelayData.append(generateRadioDelayData(j, data_noise))
                 satelliteonlineData.append(generateSatelliteOnlineData(j, data_noise))
                 radarproximityData.append(generateRadarProximityData(j, data_noise))
-                f.write('"Time" : ' + str(j) + ',"Data" : {"Propulsion : Fuel" : ' + str(int(fuelData[j])) + ',"Propulsion : Engine RPM" : ' + str(int(enginerpmData[j])) + '}')
+                f.write('"Time" : ' + str(j) + ', "Data" : {"Propulsion : Fuel" : ' + str(int(fuelData[j])) + ', "Propulsion : Engine RPM" : ' + str(int(enginerpmData[j])) + ', "Propulsion : Engine Temperature" : ' + str(int(enginetempData[j])) + ', "Propulsion : Intake Mass Flow Rate" : ' + str(int(intakeData[j])) + '}')
+                f.write('"Time" : ' + str(j) + ', "Data" : {"CPU : Utilisation" : ' + str(int(fuelData[j])) + ', "Memory : Allocation" : ' + str(int(enginerpmData[j])) + ', "Disk : Free Space" : ' + str(int(enginetempData[j])) + ', "Disk : IOPS" : ' + str(int(intakeData[j])) + '}')
     f.close()
                 
                 
