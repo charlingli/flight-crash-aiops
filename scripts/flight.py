@@ -31,9 +31,7 @@ def getData():
         data = [ {
             "Flight Data" : {
               "Flight Number" : 0,
-              "Flight Metrics" : {
-                calculations.generateLiveData(utility.getFlightTime(startTime))
-              }
+              "Flight Metrics" : calculations.generateLiveData(utility.getFlightTime(startTime))
             }
         } ]
         print('Data generated')
