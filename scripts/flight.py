@@ -6,7 +6,7 @@ import time
 import scripts.utility as utility
 import scripts.calculations as calculations
 
-data = [
+global data = [
   {
     'Flight Data': 
     {
@@ -24,18 +24,17 @@ data = [
   }
 ]
 
-
 def getData():
     startTime = time.time()
     while True:
-        data = [ {
-            "Flight Data" : {
-              "Flight Number" : 0,
-              "Flight Metrics" : calculations.generateLiveData(utility.getFlightTime(startTime))
-            }
-        } ]
-        print('Data generated')
-        time.sleep(5.0 - ((time.time() - startTime) % 5.0))
+      data = [ {
+          "Flight Data" : {
+            "Flight Number" : 0,
+            "Flight Metrics" : calculations.generateLiveData(utility.getFlightTime(startTime))
+          }
+      } ]
+      print('Data generated')
+      time.sleep(5.0 - ((time.time() - startTime) % 5.0))
 
 class Flight(Resource):
   def get(self, id):
