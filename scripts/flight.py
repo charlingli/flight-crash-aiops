@@ -6,7 +6,8 @@ import time
 import scripts.utility as utility
 import scripts.calculations as calculations
 
-global data = [
+global data
+data = [
   {
     'Flight Data': 
     {
