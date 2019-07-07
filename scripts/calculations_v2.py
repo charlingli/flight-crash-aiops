@@ -161,7 +161,7 @@ def getAirspeed(flight_time, previous_value):
 # plt.show()
 
 def getAltitude(flight_time, previous_value):
-    altitude = calculateAccelerationY(previous_value, getAirspeed(flight_time, previous_value), getPitch(flight_time), getThrottle(flight_time)) + previous_value
+    altitude = calculateAccelerationY(previous_value, getAirspeed(flight_time, previous_value), getPitch(flight_time), getThrottle(flight_time), flight_time) + previous_value
     state['altitude'].append(altitude * np.random.normal(1, 0.002, 1))
     return state['altitude'][-1];
 
