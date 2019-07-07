@@ -128,11 +128,11 @@ state = {
 ## Define the time-dependent equations of state
 def getAirspeed(flight_time, previous_value):
     if (flight_time <= data_takeoff_time):
-        airspeed = calculateExcessThrust(0, previous_value, getPitch(flight_time), getThrottle(flight_time)) / settings_conf['c172']['mass'] * simulation_multiplier + previous_value;
+        airspeed = calculateExcessThrust(0, previous_value, getPitch(flight_time), getThrottle(flight_time), flight_time) / settings_conf['c172']['mass'] * simulation_multiplier + previous_value;
     elif (flight_time > data_takeoff_time) and (flight_time < data_landing_time):
-        airspeed = calculateExcessThrust(0, previous_value, getPitch(flight_time), getThrottle(flight_time)) / settings_conf['c172']['mass'] * simulation_multiplier + previous_value;
+        airspeed = calculateExcessThrust(0, previous_value, getPitch(flight_time), getThrottle(flight_time), flight_time) / settings_conf['c172']['mass'] * simulation_multiplier + previous_value;
     else:
-        airspeed = calculateExcessThrust(0, previous_value, getPitch(flight_time), getThrottle(flight_time)) / settings_conf['c172']['mass'] * simulation_multiplier + previous_value;
+        airspeed = calculateExcessThrust(0, previous_value, getPitch(flight_time), getThrottle(flight_time), flight_time) / settings_conf['c172']['mass'] * simulation_multiplier + previous_value;
     state['airspeed'].append(airspeed * np.random.normal(1, 0.001, 1))
     return state['airspeed'][-1];
 
