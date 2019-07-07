@@ -1,13 +1,16 @@
 from flask_restful import Resource
+
 import json
 import os
 import sys
 import threading
 import time
+import yaml
+
 import scripts.utility as utility
 import scripts.calculations as calculations
 
-def getData():
+def initialiseFlight():
     startTime = time.time()
     while True:
       data = [ {
@@ -27,5 +30,5 @@ class Flight(Resource):
       data = json.load(f)
     return data, 200
 
-t = threading.Thread(target=getData)
+t = threading.Thread(target=initialiseFlight)
 t.start()

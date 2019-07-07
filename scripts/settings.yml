@@ -1,28 +1,78 @@
 simulation:
-  restart: true # Restart after simulation ends?
   length: 600   # Length in seconds of each simulation
-  multiplier: 1 # Time multiplier (# of metrics to calculate per second)
+  multiplier: 0.4 # Time multiplier (allows for 'slow-motion')
+  type: c172
+
+failure:
+  # - None
+  # - intakemassflowrate # blockage; intake mass flow stops, thrust declines, transpondercode 7700
+  - fuellevels # leak; fuel levels drop
+  # - oillevels # leak; engine temperature rises
+  # - enginerpm # failure; thrust drops, transpondercode 7700
+  # - enginetemperature # overheat; thrust drops, transpondercode 7700 
+  # - propellerrpm # strike; thrust declines, transpondercode 7700 
+  # - batterylevels # outage; battery levels drop, transpondercode 7700 
+  # - communicationsdelay # lost; transpondercode 7600 
+  # - satellitemonitoring # lost; no data reported
+  # - radarproximity # breach; no data reported
+  # - fuselagestress # decompression; thrust drops, transpondercode 7700
+  # - wingstress # wing lost; thrust drops, transpondercode 7700
+  # - tailstress # wing lost; elevator drops, transpondercode 7700
+  # - controlsurfaceloading # control surface lost; elevator drops, transpondercode 7700
+  # - engineloading # engine lost; thrust drops, transpondercode 7700
 
 model:
-  failure: None # Failure cause (None/intake/fuel... follow the topology)
-  type: simple  # Active components (topology below)
-  advanced:
-    intake: powerplant
-    fuel: powerplant
-    oil: powerplant
-    engine: powerplant
-    propeller: powerplant
-    battery: electrical
-    communications: avionics
-    satellite: avionics
-    radar: avionics
-    groundspeed: instrumentation
-    altitude: instrumentation
-    pitch: instrumentation
-  simple:
-    fuel: powerplant
-    engine: powerplant
-    propeller: powerplant
-    battery: electrical
-    groundspeed: instrumentation
-    altitude: instrumentation
+  propulsion:
+    - intakemassflowrate
+    - fuellevels
+    - oiltemperature
+    - oillevels
+    - enginerpm
+    - enginetemperature
+    - propellerrpm
+  electrical: 
+    - batterylevels
+    - alternatorrmsoutput
+  avionics:
+    - communicationsdelay
+    - satellitemonitoring
+    - radarproximity
+    - transpondercode
+  airframe:
+    - fuselagestress
+    - wingstress
+    - tailstress
+    - controlsurfaceloading
+    - engineloading
+
+controls:
+  - throttle
+  - primaryswitch
+  - secondaryswitch
+  - elevator
+
+instrumentation:
+  - airspeed
+  - altitude
+  - pitch
+
+c172:
+  mass: 757
+  aspectratio: 7.32
+  surfacearea: 15.98
+  parasitedrag: 0.029
+  propellerarea: 2.843
+  propellervelocity: 58.572
+  fuelefficiency: 0.3
+  cruise:
+    throttle: 0.362
+    airspeed: 27.778
+    angleofattack: 6.768
+  takeoff:
+    throttle: 0.792
+    airspeed: 33.336
+    angleofattack: 10.77
+  landing:
+    throttle: 0.109
+    airspeed: 12.224
+    angleofattack: 3.844
