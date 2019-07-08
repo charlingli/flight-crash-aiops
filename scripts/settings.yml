@@ -65,7 +65,7 @@ c172:
   propellervelocity: 58.572
   fuelefficiency: 0.3
   cruise:
-    throttle: 0.362
+    throttle: 0.462
     airspeed: 27.778
     angleofattack: 6.768
   takeoff:
@@ -73,6 +73,6 @@ c172:
     airspeed: 33.336
     angleofattack: 10.77
   landing:
-    throttle: 0.109
+    throttle: 0
     airspeed: 12.224
     angleofattack: 3.844
