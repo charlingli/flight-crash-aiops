@@ -46,7 +46,10 @@ git clone https://github.com/charlingli/flight-crash-aiops.git
 Send me a message or just chat to me :)
 
 ### Limitations/Future work
-
+- Clean up the architecture
+- Introduce failure modes during take-off and landing
+- Implement more models
+- Use correct equations
 
 ## Troubleshooting
 
