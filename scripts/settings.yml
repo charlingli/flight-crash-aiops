@@ -1,14 +1,14 @@
 simulation:
   length: 600   # Length in seconds of each simulation
-  multiplier: 0.4 # Time multiplier (allows for 'slow-motion')
+  multiplier: 0.05 # Time multiplier (allows for 'slow-motion')
   type: c172
 
 failure:
-  # - None
+  - None
   # - intakemassflowrate # blockage; intake mass flow stops, thrust declines, transpondercode 7700
   - fuellevels # leak; fuel levels drop
   # - oillevels # leak; engine temperature rises
-  # - enginerpm # failure; thrust drops, transpondercode 7700
+  - enginerpm # failure; thrust drops, transpondercode 7700
   # - enginetemperature # overheat; thrust drops, transpondercode 7700 
   # - propellerrpm # strike; thrust declines, transpondercode 7700 
   # - batterylevels # outage; battery levels drop, transpondercode 7700 
@@ -64,15 +64,8 @@ c172:
   propellerarea: 2.843
   propellervelocity: 58.572
   fuelefficiency: 0.3
-  cruise:
+  defaults:
     throttle: 0.462
-    airspeed: 27.778
-    angleofattack: 6.768
-  takeoff:
-    throttle: 0.792
-    airspeed: 33.336
-    angleofattack: 10.77
-  landing:
-    throttle: 0
-    airspeed: 12.224
-    angleofattack: 3.844
+    angleofattack: 4.768
+    airspeed: 41.7337
+    enginerpm: 2400
