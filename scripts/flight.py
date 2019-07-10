@@ -23,12 +23,13 @@ def initialiseFlight(i):
 
 class Flight(Resource):
   def get(self, id):
+    print('Test')
     file_path = os.path.join(dir_path, 'live', str(id) + '.txt')
-    print(file_path)
     with open(file_path, 'r') as f:
       data = json.load(f)
     return data, 200
 
+print('Starting')
 initialiseFlight(0)
 
 # with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
