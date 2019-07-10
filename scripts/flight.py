@@ -8,7 +8,7 @@ import time
 import yaml
 
 import scripts.utility as utility
-import scripts.calculations as calculations
+import scripts.calculations_v3 as calculations
 
 def initialiseFlight():
     startTime = time.time()
