@@ -181,7 +181,7 @@ def generateLiveData(i):
                 json_file.writelines(',')
             json_file.close()
             
-            print('INFO\tcalculations:generateLiveData\tRecording flight ' + str(i) + ' data for time  ' + state['flighttime'][-1])
+            print('INFO\tcalculations:generateLiveData\tRecording flight ' + str(i) + ' data for time  ' + str(state['flighttime'][-1]))
 
             time.sleep(1.0 - ((time.time() - start_time) % 1.0))
 
