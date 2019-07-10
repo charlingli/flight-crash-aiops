@@ -8,8 +8,7 @@ import sys
 import time
 import yaml
 
-import utility as utility
-import calculations_v4 as calculations
+import scripts.calculations as calculations
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 settings_file = open(os.path.join(dir_path, 'settings.yml'), 'r')

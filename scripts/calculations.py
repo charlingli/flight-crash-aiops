@@ -1,4 +1,5 @@
 import datetime
+import json
 import matplotlib.pyplot as plt
 import numpy as np
 import os
@@ -7,239 +8,182 @@ import time
 import yaml
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-settings_file = open(dir_path + '/settings.yml', 'r')
+settings_file = open(os.path.join(dir_path, 'settings.yml'), 'r')
 settings_conf = yaml.load(settings_file, Loader=yaml.CLoader)
 settings_file.close()
 
-simulationLength = settings_conf['simulation']['length']
-data_sigmoid_takeoff = lambda flightTime: 1 / (1 + np.exp(0.1 * flightTime - (simulationLength / 5 * 0.1)))
-data_sigmoid_landing = lambda flightTime: 1 / (1 + np.exp(-0.1 * flightTime + (simulationLength * 4 / 5 * 0.1)))
-data_sigmoid_cruise = lambda flightTime: -data_sigmoid_takeoff(flightTime) - data_sigmoid_landing(flightTime) + 1
+simulation_length = settings_conf['simulation']['length']
+simulation_multiplier = settings_conf['simulation']['multiplier']
 
-def generateFuelData(flightTime, data_noise):
-    fuel_function_takeoff = 100 - (simulationLength / 6000) * flightTime
-    fuel_function_cruise = (100 - (simulationLength / 6000) * (simulationLength / 5)) - (simulationLength / 12000) * (flightTime - simulationLength / 5)
-    fuel_function_landing = ((100 - (simulationLength / 6000) * (simulationLength / 5)) - (simulationLength / 12000) * (flightTime - simulationLength / 5)) + (simulationLength / 16000) * (flightTime - simulationLength * 4 / 5)
-    fuel_function_combined = (fuel_function_takeoff * data_sigmoid_takeoff(flightTime) + fuel_function_cruise * data_sigmoid_cruise(flightTime) + fuel_function_landing * data_sigmoid_landing(flightTime)) * data_noise
-    return fuel_function_combined
-    
-def generateEngineRPMData(flightTime, data_noise):
-    enginerpm_function_takeoff = 2200
-    enginerpm_function_cruise = 1800
-    enginerpm_function_landing = 1200
-    enginerpm_function_combined = (enginerpm_function_takeoff * data_sigmoid_takeoff(flightTime) + enginerpm_function_cruise * data_sigmoid_cruise(flightTime) + enginerpm_function_landing * data_sigmoid_landing(flightTime)) * data_noise
-    return enginerpm_function_combined
-    
-def generateEngineTempData(flightTime, data_noise):
-    enginetemp_function_takeoff = np.log(simulationLength / 20 * flightTime + 1) * (100 / 7)
-    enginetemp_function_cruise = (np.log(simulationLength / 20 * (simulationLength / 5) + 1) * (100 / 7)) + simulationLength / 16000 * (flightTime - simulationLength / 5)
-    enginetemp_function_landing = ((np.log(simulationLength / 20 * (simulationLength / 5) + 1) * (100 / 7)) + simulationLength / 16000 * (simulationLength * 4 / 5 - simulationLength / 5)) - simulationLength / 14000 * (flightTime - simulationLength * 4 / 5)
-    enginetemp_function_combined = (enginetemp_function_takeoff * data_sigmoid_takeoff(flightTime) + enginetemp_function_cruise * data_sigmoid_cruise(flightTime) + enginetemp_function_landing * data_sigmoid_landing(flightTime)) * data_noise
-    return enginetemp_function_combined
-    
-def generateIntakeData(flightTime, data_noise):
-    intake_function_takeoff = - np.power(flightTime - simulationLength / 12, 2) / np.power(simulationLength / 8, 2) + 8
-    intake_function_cruise = 6
-    intake_function_landing = 7
-    intake_function_combined = (intake_function_takeoff * data_sigmoid_takeoff(flightTime) + intake_function_cruise * data_sigmoid_cruise(flightTime) + intake_function_landing * data_sigmoid_landing(flightTime)) * data_noise
-    return intake_function_combined
-    
-def generateBatteryData(flightTime, data_noise):
-    battery_function_takeoff = np.abs(np.log(flightTime + 1)) * (100 / (np.log(simulationLength / 5 + 1)))
-    battery_function_cruise = 100
-    battery_function_landing = 100
-    battery_function_combined = (battery_function_takeoff * data_sigmoid_takeoff(flightTime) + battery_function_cruise * data_sigmoid_cruise(flightTime) + battery_function_landing * data_sigmoid_landing(flightTime)) * data_noise
-    return battery_function_combined
-    
-def generateAlternatorData(flightTime, data_noise):
-    alternator_function_combined = np.sin(flightTime) * 24 * data_noise
-    alternator_rms_function_combined = np.sqrt(24) * data_noise
-    return [alternator_function_combined, alternator_rms_function_combined]
+simulation_failure_type = settings_conf['failure'][np.random.randint(len(settings_conf['failure']))]
+simulation_failure_time = np.random.randint(np.floor(simulation_length / 5), np.floor(simulation_length * 4 / 5))
 
-def generateRadioDelayData(flightTime, data_noise):
-    radiodelay_function_takeoff = 10
-    radiodelay_function_cruise = 10 + np.sin((flightTime - simulationLength / 5) / (simulationLength / (1.5 * np.pi)))
-    radiodelay_function_landing = 10
-    radiodelay_function_combined = (radiodelay_function_takeoff * data_sigmoid_takeoff(flightTime) + radiodelay_function_cruise * data_sigmoid_cruise(flightTime) + radiodelay_function_landing * data_sigmoid_landing(flightTime)) * data_noise
-    return radiodelay_function_combined
+data_flight_time = np.arange(simulation_length)
 
-def generateSatelliteOnlineData(flightTime, data_noise):
-    satelliteonline_function_takeoff = 1
-    satelliteonline_function_cruise = np.piecewise(data_noise, [data_noise <= 1.01, data_noise > 1.01], [1, 0])
-    satelliteonline_function_landing = 1
-    satelliteonline_function_combined = (satelliteonline_function_takeoff * data_sigmoid_takeoff(flightTime) + satelliteonline_function_cruise * data_sigmoid_cruise(flightTime) + satelliteonline_function_landing * data_sigmoid_landing(flightTime))
-    return satelliteonline_function_combined
+## Utility functions used in metric calculations
+data_coefficient_lift = lambda angle_of_attack: (angle_of_attack / 10) + (2.4 - 2 * angle_of_attack / 9.6) / (1 + np.exp(7.5 - angle_of_attack / 2))
 
-def generateRadarProximityData(flightTime, data_noise):
-    radarproximity_function_takeoff = np.power(flightTime, 2) / (np.power(simulationLength / 8, 2))
-    radarproximity_function_cruise = np.power(simulationLength / 5, 2) / (np.power(simulationLength / 8, 2)) + 0.25
-    radarproximity_function_landing = np.power(flightTime - simulationLength, 2) / (np.power(simulationLength / 8, 2))
-    radarproximity_function_combined = (radarproximity_function_takeoff * data_sigmoid_takeoff(flightTime) + radarproximity_function_cruise * data_sigmoid_cruise(flightTime) + radarproximity_function_landing * data_sigmoid_landing(flightTime)) * data_noise
-    return radarproximity_function_combined
+test_data_altitude = np.linspace(0, 12, 120)
+data_temperature = lambda altitude: 288.15 - 12.25 * altitude
+data_density = lambda altitude: 1.225 * np.power(data_temperature(altitude) / (data_temperature(altitude) + 0.02 * altitude), 1 + 9.807 * 12.25 / (8.314 * 0.02))
 
-def generateLiveData(flightTime):
-    data_noise = np.random.normal(1, 0.005, 1)
-    fuelData = generateFuelData(flightTime, data_noise)
-    enginerpmData = generateEngineRPMData(flightTime, data_noise)
-    enginetempData = generateEngineTempData(flightTime, data_noise)
-    intakeData = generateIntakeData(flightTime, data_noise)
-    batteryData = generateBatteryData(flightTime, data_noise)
-    alternatorData = generateAlternatorData(flightTime, data_noise)[0]
-    alternatorrmsData = generateAlternatorData(flightTime, data_noise)[1]
-    radiodelayData = generateRadioDelayData(flightTime, data_noise)
-    satelliteonlineData = generateSatelliteOnlineData(flightTime, data_noise)
-    radarproximityData = generateRadarProximityData(flightTime, data_noise)
-    data_payload = {
-        'Time' : str(flightTime), 
-        'Data' : 
-        {
-          'Propulsion : Fuel' : str(fuelData),
-          'Propulsion : Engine RPM' : str(enginerpmData)
-        }
-      }
-    return data_payload
-    
-def generateStaticData(nSamples):
-    dataTime = list(range(simulationLength))
+data_coefficient_drag_induced = lambda angle_of_attack: np.power(data_coefficient_lift(angle_of_attack), 2) / (np.pi * settings_conf['c172']['aspectratio'])
+data_coefficient_drag_parasite = settings_conf['c172']['parasitedrag']
 
-    with open('staticData.txt', 'w+') as f:
-        f.write('{"Flight Data" : {')
-        for i in range(0, nSamples):
-            fuelData = []
-            enginerpmData = []
-            enginetempData = []
-            intakeData = []
-            batteryData = []
-            alternatorData = []
-            alternatorrmsData = []
-            radiodelayData = []
-            satelliteonlineData = []
-            radarproximityData = []
-            f.write('"Flight Number" : ' + str(i) + ',')
-            
-            for j in dataTime:
-                data_noise = np.random.normal(1, 0.005, 1)
-                fuelData.append(generateFuelData(j, data_noise))
-                enginerpmData.append(generateEngineRPMData(j, data_noise))
-                enginetempData.append(generateEngineTempData(j, data_noise))
-                intakeData.append(generateIntakeData(j, data_noise))
-                batteryData.append(generateBatteryData(j, data_noise))
-                alternatorData.append(generateAlternatorData(j, data_noise)[0])
-                alternatorrmsData.append(generateAlternatorData(j, data_noise)[1])
-                radiodelayData.append(generateRadioDelayData(j, data_noise))
-                satelliteonlineData.append(generateSatelliteOnlineData(j, data_noise))
-                radarproximityData.append(generateRadarProximityData(j, data_noise))
-                f.write('"Time" : ' + str(j) + ', "Data" : {"Propulsion : Fuel" : ' + str(int(fuelData[j])) + ', "Propulsion : Engine RPM" : ' + str(int(enginerpmData[j])) + ', "Propulsion : Engine Temperature" : ' + str(int(enginetempData[j])) + ', "Propulsion : Intake Mass Flow Rate" : ' + str(int(intakeData[j])) + '}')
-                f.write('"Time" : ' + str(j) + ', "Data" : {"CPU : Utilisation" : ' + str(int(fuelData[j])) + ', "Memory : Allocation" : ' + str(int(enginerpmData[j])) + ', "Disk : Free Space" : ' + str(int(enginetempData[j])) + ', "Disk : IOPS" : ' + str(int(intakeData[j])) + '}')
-    f.close()
-                
-                
-if __name__ == "__main__":
-    # Debugging for when this is executed as a script
+## Define FBD model equations
+def calculateLift(altitude, airspeed, angle_of_attack):
+    return 0.5 * data_density(altitude) * np.power(airspeed, 2) * settings_conf['c172']['surfacearea'] * data_coefficient_lift(angle_of_attack)
 
-    dataTime = list(range(simulationLength))
+def calculateDrag(altitude, airspeed, angle_of_attack):
+    return 0.5 * data_density(altitude) * np.power(airspeed, 2) * settings_conf['c172']['surfacearea'] * (data_coefficient_drag_induced(angle_of_attack) + data_coefficient_drag_parasite)
 
-    fuelData = []
-    enginerpmData = []
-    enginetempData = []
-    intakeData = []
-    batteryData = []
-    alternatorData = []
-    alternatorrmsData = []
-    radiodelayData = []
-    satelliteonlineData = []
-    radarproximityData = []
-    
-    for i in dataTime:
-        data_noise = np.random.normal(1, 0.005, 1)
-        fuelData.append(generateFuelData(i, data_noise))
-        enginerpmData.append(generateEngineRPMData(i, data_noise))
-        enginetempData.append(generateEngineTempData(i, data_noise))
-        intakeData.append(generateIntakeData(i, data_noise))
-        batteryData.append(generateBatteryData(i, data_noise))
-        alternatorData.append(generateAlternatorData(i, data_noise)[0])
-        alternatorrmsData.append(generateAlternatorData(i, data_noise)[1])
-        radiodelayData.append(generateRadioDelayData(i, data_noise))
-        satelliteonlineData.append(generateSatelliteOnlineData(i, data_noise))
-        radarproximityData.append(generateRadarProximityData(i, data_noise))
+def calculateWeight(altitude):
+    return 9.807 / np.power((6378.137 + altitude) / 6378.137, 2) * settings_conf['c172']['mass']
 
-    plt.plot(dataTime, fuelData, label='Fuel Level')
-    plt.ylim((0, max(fuelData)))
-    plt.xlabel('Flight Time (s)')
-    plt.ylabel('Fuel Levels (%)')
-    plt.title('Fuel Level over Flight Duration')
-    plt.savefig('demo/img_fueldata.png')
-    plt.close()
+def calculateGeneratedThrust(altitude, airspeed, throttle_setting):
+    if state['fuellevels'][-1] < 1: 
+        return 0
+    else:
+        return 0.5 * data_density(altitude) * settings_conf['c172']['propellerarea'] * (np.power(settings_conf['c172']['propellervelocity'], 2) - np.power(airspeed, 2)) * throttle_setting * (state['enginerpm'][-1] / settings_conf['c172']['defaults']['enginerpm'])
     
-    plt.plot(dataTime, enginerpmData, label='Engine RPM')
-    plt.ylim((0, max(enginerpmData)))
-    plt.xlabel('Flight Time (s)')
-    plt.ylabel('Engine RPM (RPM)')
-    plt.title('Engine Speed over Flight Duration')
-    plt.savefig('demo/img_enginerpmdata.png')
-    plt.close()
+## Define control equations as a function of time:
+def getPitch():
+    return settings_conf['c172']['defaults']['angleofattack']
+
+def getThrottle():
+    return settings_conf['c172']['defaults']['throttle']
+
+## Define state functions
+def getFuelLevels():
+    if state['fuellevels'][-1] < 1: 
+        return 0
+    if simulation_failure_type == 'fuellevels' and state['flighttime'][-1] > simulation_failure_time:
+        return state['fuellevels'][-1] - 0.4 * (state['enginerpm'][-1] / settings_conf['c172']['defaults']['enginerpm']) * np.random.poisson(1, 1) if state['fuellevels'][-1] > 1 else 0
+    else:
+        return state['fuellevels'][-1] - getThrottle() * settings_conf['c172']['fuelefficiency'] * (state['enginerpm'][-1] / settings_conf['c172']['defaults']['enginerpm']) * np.random.poisson(1, 1) 
+
+def getEngineRPM():
+    if state['fuellevels'][-1] == 0: 
+        return state['enginerpm'][-1] - 100 * np.random.normal(1, 0.005, 1) if state['enginerpm'][-1] - 100 > 0 else 0
+    if state['intakemassflowrate'][-1] == 0:
+        return state['enginerpm'][-1] - 200 * np.random.normal(1, 0.005, 1) if state['enginerpm'][-1] - 200 > 0 else 0
+    if state['enginetemperature'][-1] < 80 and state['flighttime'][-1] > simulation_failure_time:
+        return state['enginerpm'][-1] * (state['enginetemperature'][-1] + 20) / (state['enginerpm'][-1] / 24) if state['enginetemperature'][-1] > 0 else 0
+    if simulation_failure_type == 'enginerpm' and state['flighttime'][-1] > simulation_failure_time:
+        return 0
+    else:
+        return state['enginerpm'][-1] + (settings_conf['c172']['defaults']['enginerpm'] - state['enginerpm'][-1]) * 0.1 * (state['intakemassflowrate'][-1] / settings_conf['c172']['defaults']['intakemassflowrate']) * np.random.normal(1, 0.005, 1)
+
+def getIntakeMassFlowRate():
+    if simulation_failure_type == 'intakemassflowrate' and state['flighttime'][-1] > simulation_failure_time:
+        return 0
+    else:
+        return data_density(state['altitude'][-1]) * state['airspeed'][-1] * settings_conf['c172']['intakearea'] * np.random.normal(1, 0.005, 1)
+
+def getEngineTemperature():
+    if simulation_failure_type == 'enginetemperature' and state['flighttime'][-1] > simulation_failure_time:
+        return (state['enginetemperature'][-1] - (state['flighttime'][-1] - simulation_failure_time) * 0.002) if state['enginetemperature'][-1] > 0 else 0
+    else:
+        return state['enginerpm'][-1] / 24
+
+## Define a state matrix
+state = {
+    "flighttime": [0],
+    "failuretype": [simulation_failure_type],
+    "failuretime": [simulation_failure_time],
+    "lift": [0],
+    "drag": [0],
+    "weight": [settings_conf['c172']['mass'] * 9.807],
+    "thrust": [0],
+    "accelx": [0],
+    "accely": [0],
+    "velx": [40 * np.random.normal(1, 0.005, 1)],
+    "vely": [0],
+    "airspeed": [40 * np.random.normal(1, 0.005, 1)],
+    "altitude": [2 * np.random.normal(1, 0.005, 1)],
+    "fuellevels": [100],
+    "enginerpm": [0],
+    "intakemassflowrate": [0],
+    "enginetemperature": [0]
+}
+
+## Define the timestepping function
+def advanceState():
+    state['flighttime'].append(int(state['flighttime'][-1]) + 1)
+
+    state['lift'].append(calculateLift(state['altitude'][-1], state['airspeed'][-1], getPitch()) if state['altitude'][-1] > 0 else 0)
+    state['drag'].append(calculateDrag(state['altitude'][-1], state['airspeed'][-1], getPitch()) if state['altitude'][-1] > 0 else 0)
+    state['thrust'].append(calculateGeneratedThrust(state['altitude'][-1], state['airspeed'][-1], getThrottle(),) if state['altitude'][-1] > 0 else 0)
+    state['weight'].append(calculateWeight(state['altitude'][-1]) if state['altitude'][-1] > 0 else 0)
     
-    plt.plot(dataTime, enginetempData, label='Engine Temp')
-    plt.ylim((0, max(enginetempData)))
-    plt.xlabel('Flight Time (s)')
-    plt.ylabel('Engine Temp (°C)')
-    plt.title('Engine Temperature over Flight Duration')
-    plt.savefig('demo/img_enginetempdata.png')
-    plt.close()
+    state['accely'].append((state['thrust'][-1] * np.sin(getPitch() * np.pi / 180) - state['drag'][-1] * np.sin(getPitch() * np.pi / 180) + state['lift'][-1] * np.cos(getPitch() * np.pi / 180) - state['weight'][-1]) / settings_conf['c172']['mass'] if state['altitude'][-1] > 0 else 0)
+    state['accelx'].append((state['thrust'][-1] * np.cos(getPitch() * np.pi / 180) - state['drag'][-1] * np.cos(getPitch() * np.pi / 180) - state['lift'][-1] * np.sin(getPitch() * np.pi / 180)) / settings_conf['c172']['mass'] if state['altitude'][-1] > 0 else 0)
     
-    plt.plot(dataTime, intakeData, label='Intake Mass Flow Rate')
-    plt.ylim((0, max(intakeData)))
-    plt.xlabel('Flight Time (s)')
-    plt.ylabel('Intake Mass Flow Rate (L/s)')
-    plt.title('Intake Mass Flow Rate over Flight Duration')
-    plt.savefig('demo/img_intakedata.png')
-    plt.close()
-    
-    plt.plot(dataTime, batteryData, label='Battery Level')
-    plt.ylim((0, max(batteryData)))
-    plt.xlabel('Flight Time (s)')
-    plt.ylabel('Battery Level (%)')
-    plt.title('Battery Level over Flight Duration')
-    plt.savefig('demo/img_batterydata.png')
-    plt.close()
-    
-    plt.plot(dataTime, alternatorData, label='Alternator Output')
-    plt.xlabel('Flight Time (s)')
-    plt.ylabel('Alternator Output (V)')
-    plt.title('Alternator Output over Flight Duration')
-    plt.savefig('demo/img_alternatordata.png')
-    plt.close()
-    
-    plt.plot(dataTime, alternatorrmsData, label='Alternator RMS Output')
-    plt.ylim((0, max(alternatorrmsData) + 1))
-    plt.xlabel('Flight Time (s)')
-    plt.ylabel('Alternator Output (V)')
-    plt.title('Alternator Output over Flight Duration')
-    plt.savefig('demo/img_alternatorrmsdata.png')
-    plt.close()
-    
-    plt.plot(dataTime, radiodelayData, label='Radio Delay')
-    plt.ylim((0, max(radiodelayData)))
-    plt.xlabel('Flight Time (s)')
-    plt.ylabel('Radio Delay (ms)')
-    plt.title('Radio Delay over Flight Duration')
-    plt.savefig('demo/img_radiodelaydata.png')
-    plt.close()
-    
-    plt.plot(dataTime, satelliteonlineData, label='Satellite Online')
-    plt.ylim((0, 1.1))
-    plt.xlabel('Flight Time (s)')
-    plt.ylabel('Satellite Online')
-    plt.title('Satellite Online over Flight Duration')
-    plt.savefig('demo/img_satelliteonlinedata.png')
-    plt.close()
-    
-    plt.plot(dataTime, radarproximityData, label='Radar Proximity')
-    plt.ylim((0, max(radarproximityData) + 1))
-    plt.xlabel('Flight Time (s)')
-    plt.ylabel('Radar Proximity (km)')
-    plt.title('Radar Proximity over Flight Duration')
-    plt.savefig('demo/img_radarproximitydata.png')
-    plt.close()
-    
-    generateStaticData(2)
+    state['vely'].append(state['accely'][-1] * simulation_multiplier * np.random.normal(1, 0.005, 1) + state['vely'][-1] if state['altitude'][-1] > 0 else 0)
+    state['velx'].append(state['accelx'][-1] * simulation_multiplier * np.random.normal(1, 0.005, 1) + state['velx'][-1] if state['altitude'][-1] > 0 else 0)
+
+    state['airspeed'].append(np.sqrt(np.power(state['velx'][-1], 2) + np.power(state['vely'][-1], 2)))
+    state['altitude'].append(state['altitude'][-1] + state['vely'][-1] / 1000 if state['altitude'][-1] > 0 else 0)
+
+    state['fuellevels'].append(getFuelLevels())
+    state['enginerpm'].append(getEngineRPM())
+    state['intakemassflowrate'].append(getIntakeMassFlowRate())
+    state['enginetemperature'].append(getEngineTemperature())
+
+def resetState():
+    global state
+    state = {
+        "flighttime": [0],
+        "failuretype": [simulation_failure_type],
+        "failuretime": [simulation_failure_time],
+        "lift": [0],
+        "drag": [0],
+        "weight": [settings_conf['c172']['mass'] * 9.807],
+        "thrust": [0],
+        "accelx": [0],
+        "accely": [0],
+        "velx": [40 * np.random.normal(1, 0.005, 1)],
+        "vely": [0],
+        "airspeed": [40 * np.random.normal(1, 0.005, 1)],
+        "altitude": [2 * np.random.normal(1, 0.005, 1)],
+        "fuellevels": [100],
+        "enginerpm": [0],
+        "intakemassflowrate": [0],
+        "enginetemperature": [0]
+    }
+
+def generateLiveData(i):
+    while True:
+        startTime = time.time()
+
+        live_file = os.path.join(dir_path, 'live', str(i) + '.txt')
+        static_file = os.path.join(dir_path, 'static', str(i) + '_' + str(startTime) + '.txt')
+
+        json_file = open(static_file, 'w+')
+        json_file.writelines('[')
+        json_file.close()
+
+        while state['flighttime'][-1] < simulation_length:
+            dump = {};
+            for key in state:
+                dump[key] = json.dumps(np.array(state[key][-1]).tolist())
+
+            advanceState()
+
+            json_file = open(live_file, 'w+')
+            json.dump(dump, json_file, indent=2)
+            json_file.close()
+
+            json_file = open(static_file, 'a+')
+            json.dump(dump, json_file, indent=2)
+            if (state['flighttime'][-1] < simulation_length):
+                json_file.writelines(',')
+            json_file.close()
+
+            time.sleep(1.0 - ((time.time() - startTime) % 1.0))
+
+        json_file = open(static_file, 'a+')
+        json_file.writelines(']')
+        json_file.close()
+
+        resetState()
