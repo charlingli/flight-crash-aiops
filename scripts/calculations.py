@@ -154,10 +154,11 @@ def resetState():
 
 def generateLiveData(i):
     while True:
-        startTime = time.time()
+        start_time = time.time()
+        print('INFO\tcalculations:generateLiveData\tStarting new flight ' + str(i) + ' at time ' + str(start_time))
 
         live_file = os.path.join(dir_path, 'live', str(i) + '.txt')
-        static_file = os.path.join(dir_path, 'static', str(i) + '_' + str(startTime) + '.txt')
+        static_file = os.path.join(dir_path, 'static', str(i) + '_' + str(start_time) + '.txt')
 
         json_file = open(static_file, 'w+')
         json_file.writelines('[')
@@ -179,8 +180,10 @@ def generateLiveData(i):
             if (state['flighttime'][-1] < simulation_length):
                 json_file.writelines(',')
             json_file.close()
+            
+            print('INFO\tcalculations:generateLiveData\tRecording flight ' + str(i) + ' data for time  ' + state['flighttime'][-1])
 
-            time.sleep(1.0 - ((time.time() - startTime) % 1.0))
+            time.sleep(1.0 - ((time.time() - start_time) % 1.0))
 
         json_file = open(static_file, 'a+')
         json_file.writelines(']')
