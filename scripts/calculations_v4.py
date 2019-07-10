@@ -1,4 +1,5 @@
 import datetime
+import json
 import matplotlib.pyplot as plt
 import numpy as np
 import os
@@ -10,15 +11,12 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 settings_file = open(os.path.join(dir_path, 'settings.yml'), 'r')
 settings_conf = yaml.load(settings_file, Loader=yaml.CLoader)
 settings_file.close()
-# simulation_file = dir_path + /data
 
 simulation_length = settings_conf['simulation']['length']
 simulation_multiplier = settings_conf['simulation']['multiplier']
 
 simulation_failure_type = settings_conf['failure'][np.random.randint(len(settings_conf['failure']))]
 simulation_failure_time = np.random.randint(np.floor(simulation_length / 5), np.floor(simulation_length * 4 / 5))
-
-print(simulation_failure_type + ' failure at ' + str(simulation_failure_time))
 
 data_flight_time = np.arange(simulation_length)
 
@@ -55,25 +53,6 @@ def getPitch():
 def getThrottle():
     return settings_conf['c172']['defaults']['throttle']
 
-## Define a state matrix
-state = {
-        "flighttime": [0],
-        "lift": [0],
-        "drag": [0],
-        "weight": [settings_conf['c172']['mass'] * 9.807],
-        "thrust": [0],
-        "accelx": [0],
-        "accely": [0],
-        "velx": [40 * np.random.normal(1, 0.005, 1)],
-        "vely": [0],
-        "airspeed": [40 * np.random.normal(1, 0.005, 1)],
-        "altitude": [2 * np.random.normal(1, 0.005, 1)],
-        "fuellevels": [100],
-        "enginerpm": [0],
-        "intakemassflowrate": [0],
-        "enginetemperature": [0]
-    }
-
 ## Define state functions
 def getFuelLevels():
     if state['fuellevels'][-1] < 1: 
@@ -107,13 +86,34 @@ def getEngineTemperature():
     else:
         return state['enginerpm'][-1] / 24
 
-## Define the incremental time-dependent equations of state
+## Define a state matrix
+state = {
+    "flighttime": [0],
+    "failuretype": [simulation_failure_type],
+    "failuretime": [simulation_failure_time],
+    "lift": [0],
+    "drag": [0],
+    "weight": [settings_conf['c172']['mass'] * 9.807],
+    "thrust": [0],
+    "accelx": [0],
+    "accely": [0],
+    "velx": [40 * np.random.normal(1, 0.005, 1)],
+    "vely": [0],
+    "airspeed": [40 * np.random.normal(1, 0.005, 1)],
+    "altitude": [2 * np.random.normal(1, 0.005, 1)],
+    "fuellevels": [100],
+    "enginerpm": [0],
+    "intakemassflowrate": [0],
+    "enginetemperature": [0]
+}
+
+## Define the timestepping function
 def advanceState():
-    state['flighttime'].append(state['flighttime'][-1] + 1)
+    state['flighttime'].append(int(state['flighttime'][-1]) + 1)
 
     state['lift'].append(calculateLift(state['altitude'][-1], state['airspeed'][-1], getPitch()) if state['altitude'][-1] > 0 else 0)
     state['drag'].append(calculateDrag(state['altitude'][-1], state['airspeed'][-1], getPitch()) if state['altitude'][-1] > 0 else 0)
-    state['thrust'].append(calculateGeneratedThrust(state['altitude'][-1], state['airspeed'][-1], getThrottle()) if state['altitude'][-1] > 0 else 0)
+    state['thrust'].append(calculateGeneratedThrust(state['altitude'][-1], state['airspeed'][-1], getThrottle(),) if state['altitude'][-1] > 0 else 0)
     state['weight'].append(calculateWeight(state['altitude'][-1]) if state['altitude'][-1] > 0 else 0)
     
     state['accely'].append((state['thrust'][-1] * np.sin(getPitch() * np.pi / 180) - state['drag'][-1] * np.sin(getPitch() * np.pi / 180) + state['lift'][-1] * np.cos(getPitch() * np.pi / 180) - state['weight'][-1]) / settings_conf['c172']['mass'] if state['altitude'][-1] > 0 else 0)
@@ -130,5 +130,60 @@ def advanceState():
     state['intakemassflowrate'].append(getIntakeMassFlowRate())
     state['enginetemperature'].append(getEngineTemperature())
 
-print(simulation_failure_type + ' failure at ' + str(simulation_failure_time))
+def resetState():
+    global state
+    state = {
+        "flighttime": [0],
+        "failuretype": [simulation_failure_type],
+        "failuretime": [simulation_failure_time],
+        "lift": [0],
+        "drag": [0],
+        "weight": [settings_conf['c172']['mass'] * 9.807],
+        "thrust": [0],
+        "accelx": [0],
+        "accely": [0],
+        "velx": [40 * np.random.normal(1, 0.005, 1)],
+        "vely": [0],
+        "airspeed": [40 * np.random.normal(1, 0.005, 1)],
+        "altitude": [2 * np.random.normal(1, 0.005, 1)],
+        "fuellevels": [100],
+        "enginerpm": [0],
+        "intakemassflowrate": [0],
+        "enginetemperature": [0]
+    }
 
+def generateLiveData(i):
+    while True:
+        startTime = time.time()
+
+        live_file = os.path.join(dir_path, 'live', str(i) + '.txt')
+        static_file = os.path.join(dir_path, 'static', str(i) + '_' + str(startTime) + '.txt')
+
+        json_file = open(static_file, 'w+')
+        json_file.writelines('[')
+        json_file.close()
+
+        while state['flighttime'][-1] < simulation_length:
+            dump = {};
+            for key in state:
+                dump[key] = json.dumps(np.array(state[key][-1]).tolist())
+
+            advanceState()
+
+            json_file = open(live_file, 'w+')
+            json.dump(dump, json_file, indent=2)
+            json_file.close()
+
+            json_file = open(static_file, 'a+')
+            json.dump(dump, json_file, indent=2)
+            if (state['flighttime'][-1] < simulation_length):
+                json_file.writelines(',')
+            json_file.close()
+
+            time.sleep(1.0 - ((time.time() - startTime) % 1.0))
+
+        json_file = open(static_file, 'a+')
+        json_file.writelines(']')
+        json_file.close()
+
+        resetState()

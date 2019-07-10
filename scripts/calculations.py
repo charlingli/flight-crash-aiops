@@ -98,6 +98,7 @@ def generateLiveData(flightTime):
         }
       }
     return data_payload
+    
 def generateStaticData(nSamples):
     dataTime = list(range(simulationLength))
 

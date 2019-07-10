@@ -1,0 +1,19 @@
+[{
+  "flighttime": "0",
+  "failuretype": "\"enginetemperature\"",
+  "failuretime": "150",
+  "lift": "0",
+  "drag": "0",
+  "weight": "7423.899",
+  "thrust": "0",
+  "accelx": "0",
+  "accely": "0",
+  "velx": "[39.97880958783683]",
+  "vely": "0",
+  "airspeed": "[40.05077982408323]",
+  "altitude": "[2.0085136200441993]",
+  "fuellevels": "100",
+  "enginerpm": "0",
+  "intakemassflowrate": "0",
+  "enginetemperature": "0"
+}
