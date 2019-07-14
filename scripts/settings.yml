@@ -1,38 +1,42 @@
 simulation:
   length: 600   # Length in seconds of each simulation
+  resolution: 1 # Time in seconds to calculate each value
   multiplier: 0.05 # Time multiplier (allows for 'slow-motion')
   type: c172
 
+environmental:
+  visibility: 100
+  terrain: 2 # scale of 1 to 6, how much the elevation height changes
+
 failure:
-  # - None
-  # - intakemassflowrate # blockage; intake mass flow stops, thrust declines, transpondercode 7700
-  # - fuellevels # leak; fuel levels drop
-  # - oillevels # leak; engine temperature rises
-  # - enginerpm # failure; thrust drops, transpondercode 7700
+  - None
+  - intakemassflowrate # blockage; intake mass flow stops, thrust declines, transpondercode 7700
+  - fuellevels # leak; fuel levels drop
+  - oillevels # leak; engine temperature rises
+  - enginerpm # failure; thrust drops, transpondercode 7700
   - enginetemperature # overheat; thrust drops, transpondercode 7700 
-  # - propellerrpm # strike; thrust declines, transpondercode 7700 
-  # - batterylevels # outage; battery levels drop, transpondercode 7700 
-  # - communicationsdelay # lost; transpondercode 7600 
-  # - satellitemonitoring # lost; no data reported
-  # - radarproximity # breach; no data reported
-  # - fuselagestress # decompression; thrust drops, transpondercode 7700
-  # - wingstress # wing lost; thrust drops, transpondercode 7700
-  # - tailstress # wing lost; elevator drops, transpondercode 7700
-  # - controlsurfaceloading # control surface lost; elevator drops, transpondercode 7700
-  # - engineloading # engine lost; thrust drops, transpondercode 7700
+  - propellerrpm # strike; thrust declines, transpondercode 7700 
+  - batterylevels # outage; battery levels drop, transpondercode 7700 
+  - communicationsdelay # lost; transpondercode 7600 
+  - None # lost; no data reported
+  - radarproximity # breach; no data reported
+  - fuselagestress # decompression; thrust drops, transpondercode 7700
+  - None # wing lost; thrust drops, transpondercode 7700
+  - None # wing lost; elevator drops, transpondercode 7700
+  - None # control surface lost; elevator drops, transpondercode 7700
+  - engineloading # engine lost; thrust drops, transpondercode 7700
 
 model:
   propulsion:
     - intakemassflowrate
     - fuellevels
-    - oiltemperature
     - oillevels
     - enginerpm
     - enginetemperature
     - propellerrpm
   electrical: 
     - batterylevels
-    - alternatorrmsoutput
+    - alternatoroutput
   avionics:
     - communicationsdelay
     - satellitemonitoring

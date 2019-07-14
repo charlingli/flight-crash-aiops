@@ -1,0 +1,33 @@
+https://git.heroku.com/flight-crash-aiops.git
+
+1. Download and install Splunk
+2. Create index
+    name: acn_flight_data_idx
+3. Write a python script to make HTTP GET and output
+4. Set up data input
+    New Local Script
+    Script Path
+    Interval 15s
+    sourcetype _json
+    App context search
+    Index as above
+4.5 Debug unicode characters ;)
+
+    import requests
+
+    for i in range(0, 10):
+        response = requests.get('https://flight-crash-aiops.herokuapp.com/flight/' + str(i))
+        data = response.json()
+        print(str(data).replace("u'", '"').replace("'", '"').replace('[', '').replace(']', ''))
+
+5. Check altitude of each flight number 
+    (index="acn_flight_data_idx" flightnumber=0 | chart values(altitude) by _time)
+
+6. Add thresholding
+     | eval warning = 40 | eval critical = 45
+
+7. Add alerting
+
+    Output results to lookup
+
+8. Add reporting
